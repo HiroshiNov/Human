@@ -13,5 +13,9 @@ class MainActivity : AppCompatActivity() {
         var Taro = Human("Taro",20,"Swimming")
         Taro.say()
         Taro.think()
+
+        var Tom = Human("Tom",40,"Shopping")
+        Tom.say()
+        Tom.think()
     }
 }
